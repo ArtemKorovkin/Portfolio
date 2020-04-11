@@ -1,10 +1,32 @@
 @import '../../../Styles/RFS';
 .body{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
   .title{
     color: white;
     @include font-size(70px);
     font-weight: 800;
     text-align: center;
+    align-self: center;
+    margin-bottom: 30px;
   }
-  .text{}
+  .text{
+    color: white;
+    line-height: 18px;
+    letter-spacing: 1px;
+    max-width: 550px;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 30px;
+    &:after{
+      content: '';
+      display: block;
+      width: 75%;
+      height: 1px;
+      background-color: white;
+      margin: 20px auto 0 auto;
+    }
+  }
 }

@@ -1,0 +1,17 @@
+.btn{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  text-align: center;
+  span{
+    display: block;
+    margin-bottom: 10px;
+    a{
+      cursor: pointer;
+      color: white;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+  }
+}
