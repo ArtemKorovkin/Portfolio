@@ -7,6 +7,7 @@ import {FaTelegram} from 'react-icons/fa'
 import {IoMdMail} from 'react-icons/io'
 import {MdPhoneInTalk} from 'react-icons/md'
 
+
 const Social = (props) => {
   return (
       <div className = {s.social}>
