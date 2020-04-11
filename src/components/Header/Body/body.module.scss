@@ -1,0 +1,10 @@
+@import '../../../Styles/RFS';
+.body{
+  .title{
+    color: white;
+    @include font-size(70px);
+    font-weight: 800;
+    text-align: center;
+  }
+  .text{}
+}
