@@ -11,12 +11,12 @@ import {MdPhoneInTalk} from 'react-icons/md'
 const Social = (props) => {
   return (
       <div className = {s.social}>
-        <a href=''><FaTwitter size='30px'/></a>
-        <a href=''><FaSkype size='30px'/></a>
-        <a href=''><IoLogoWhatsapp size='30px'/></a>
-        <a href=''><FaTelegram size='30px'/></a>
-        <a href=''><IoMdMail size='30px'/></a>
-        <a href=''><MdPhoneInTalk size='30px'/></a>
+        <a href='https://twitter.com/artkorIT_' target='_blank'><FaTwitter size='30px'/></a>
+        <a href='skype:+79244391114?call' target='_blank'><FaSkype size='30px'/></a>
+        <a href='https://api.whatsapp.com/send?phone=79244391114' target='_blank'><IoLogoWhatsapp size='30px'/></a>
+        <a href='tg://resolve?domain=saimon_kor' target='_blank'><FaTelegram size='30px'/></a>
+        <a href='mailto:korovkin.ip@gmail.com' target='_blank'><IoMdMail size='30px'/></a>
+        <a href='tel:+79244391114' target='_blank'><MdPhoneInTalk size='30px'/></a>
       </div>
   )
 }

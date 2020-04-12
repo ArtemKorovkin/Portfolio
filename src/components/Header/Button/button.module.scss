@@ -4,6 +4,9 @@
   transform: translateX(-50%);
   bottom: 20px;
   text-align: center;
+  @media (max-height: 540px) {
+    position: relative;
+  }
   span{
     display: block;
     margin-bottom: 10px;

@@ -1,0 +1,33 @@
+@import '../../../../Styles/RFS';
+
+.menu{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: -100%;
+  background-color: rgba(113, 245, 240, .96);;
+  min-height: 100%;
+  padding: 0 20px;
+  z-index: 10;
+  transition: left .4s ease-in;
+  .list{
+    text-align: center;
+
+    .listItem{
+      margin-bottom: 30px;
+
+      a{
+        text-decoration: none;
+        color: white;
+        @include font-size(40px);
+        font-weight: 800;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+.active{
+  left: 0;
+}

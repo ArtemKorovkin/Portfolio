@@ -1,5 +1,7 @@
 import React from 'react';
 import style from './nav.module.scss'
+import Burger from './BurgerMenu/Burger'
+
 
 const Navigation  = (props) => {
   return (
@@ -10,6 +12,7 @@ const Navigation  = (props) => {
         <li className={style.menuItem}><a href=''>Резюме</a></li>
         <li className={style.menuItem}><a href=''>Работы</a></li>
       </ul>
+      <Burger/>
     </nav>
   )
 }

@@ -4,6 +4,9 @@
 .menuList{
   display: flex;
   justify-content: center;
+  @media (max-width: 650px){
+    display: none;
+  }
   .menuItem{
     a{
       color: white;
