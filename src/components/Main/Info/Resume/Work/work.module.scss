@@ -1,6 +1,8 @@
 @import '../../../../../Styles/RFS';
 .work{
   display: flex;
+  padding: 50px 0 50px 0;
+  border-bottom: 1px solid rgba(43, 43, 43, .5);
   .title{
     display: inline-block;
     font-family: 'Russo One', Arial, Helvetica, sans-serif;
@@ -16,8 +18,12 @@
     flex: 0 1 75%;
     h3{
       font-family: 'Russo One', Arial, Helvetica, sans-serif;
-      @include font-size(30px);
+      font-size: 20px;
       margin-bottom: 20px;
+    }
+    p{
+      line-height: 18px;
+      letter-spacing: 1px;
     }
   }
 }
