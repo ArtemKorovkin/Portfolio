@@ -1,6 +1,11 @@
 @import 'nullstyle.scss';
+
+//font-family: 'Roboto', sans-serif;
+//font-family: 'Russo One', sans-serif;
+//font-family: 'Caveat', cursive;
+
 body{
-  font-family: Bolt, Arial, Helvetica, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 .wrapper {
@@ -11,7 +16,6 @@ body{
 }
 .container {
   max-width: 1130px;
-  overflow: hidden;
   padding: 0 15px;
   margin: 0 auto;
 }
