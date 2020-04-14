@@ -3,7 +3,7 @@ import style from './education.module.scss'
 
 const Education  = (props) => {
   return (
-        <div className={style.educationInner}>
+        <div className={style.educationInner} id='education'>
           <div className={style.title}>
             <h3>Образование</h3>
           </div>

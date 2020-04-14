@@ -3,12 +3,23 @@
 .skills{
   display: flex;
   padding: 50px 0;
+  @media (max-width:640px) {
+    flex-direction: column;
+  }
   .title{
-    display: inline-block;
+    flex: 0 1 34%;
     font-family: 'Russo One', Arial, Helvetica, sans-serif;
     @include font-size(30px);
-    line-height: 40px;
-    flex: 0 1 34%;
+    @media (max-width:640px) {
+      margin-bottom: 50px;
+    }
+    h3{
+      display: inline-block;
+      border-bottom: 5px solid rgb(38, 161, 237);
+    }
+  }
+  .text{
+    margin-bottom: 30px;
   }
   .demonstration{
     flex: 0 1 75%;
@@ -17,12 +28,59 @@
       letter-spacing: 1px;
     }
     span{
+      display: inline-block;
       font-family: 'Russo One', Arial, Helvetica, sans-serif;
       font-size: 20px;
+      margin-bottom: 10px;
+      @media (max-width:440px) {
+        font-size: 16px;
+      }
+    }
+    .progressBar{
+      position: relative;
+      width: 100%;
+      height: 35px;
+      margin-bottom: 50px;
+      border: 1px solid #888888;
+      &:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 35px;
+        background-color: #26a1ed;
+      }
     }
   }
 }
-.html{}
-.css{}
-.javaScript{}
-.react{}
+.html{
+  &:before{
+    width: 75%;
+  }
+}
+.css{
+  &:before{
+    width: 65%;
+  }
+}
+.javaScript{
+  &:before{
+    width: 45%;
+  }
+}
+.react{
+  &:before{
+    width: 40%;
+  }
+}
+.scss{
+  &:before{
+    width: 70%;
+  }
+}
+.photoRedactors{
+  &:before{
+    width: 78%;
+  }
+}
+

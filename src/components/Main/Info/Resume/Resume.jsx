@@ -8,7 +8,6 @@ const Resume  = (props) => {
   return (
     <section className={style.resume}>
       <div className="container">
-
       <Education/>
       <Work/>
       <Skills/>

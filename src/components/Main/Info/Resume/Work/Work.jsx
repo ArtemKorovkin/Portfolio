@@ -3,7 +3,7 @@ import style from './work.module.scss'
 
 const Work  = (props) => {
   return (
-    <div className={style.work}>
+    <div className={style.work} id='infoMyWork'>
       <div className={style.title}>
         <h3>Работа</h3>
       </div>
