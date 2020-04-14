@@ -6,7 +6,7 @@ import Skills from './Skills/Skill'
 
 const Resume  = (props) => {
   return (
-    <section className={style.resume}>
+    <section className={style.resume} id='myResume'>
       <div className="container">
       <Education/>
       <Work/>

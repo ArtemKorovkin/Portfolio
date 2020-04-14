@@ -7,7 +7,7 @@ import Btn from './Button/Button'
 
 const Header = (props) => {
   return (
-      <header className={s.header}>
+      <header className={s.header} id='mainPage'>
         <div className="container">
           <Navigation/>
           <Body/>

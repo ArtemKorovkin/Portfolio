@@ -4,7 +4,7 @@ import myPhoto from './imageForPortfolio.jpg'
 
 const About = (props) => {
   return (
-      <section className={style.about} >
+      <section className={style.about} id='aboutMe' >
         <div className={style.myPhoto}>
           <img src={myPhoto} alt=''/>
         </div>

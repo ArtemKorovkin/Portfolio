@@ -1,6 +1,6 @@
 @import '../../../../Styles/RFS';
 
-.menu{
+.menu {
   position: fixed;
   display: flex;
   justify-content: center;
@@ -12,22 +12,33 @@
   padding: 0 40px;
   z-index: 10;
   transition: right .4s ease-in;
-  .list{
+
+  .list {
     text-align: center;
 
-    .listItem{
+    .listItem {
       margin-bottom: 30px;
-
-      a{
+      a {
         text-decoration: none;
         color: white;
         @include font-size(40px);
         font-weight: 800;
         letter-spacing: 2px;
       }
+      .activeLink {
+        color: #ff8c00;
+      }
     }
   }
 }
-.active{
+
+.activeLink {
+  color: #ff8c00;
+}
+
+.active {
   right: 0;
+}
+.close{
+  right: -100%;
 }

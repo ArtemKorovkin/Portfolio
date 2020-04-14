@@ -1,3 +1,29 @@
-.footer{
+.footer {
+  background-color: #2B2B2B;
 
+  .btn {
+    text-align: center;
+    transform: rotate(180deg);
+    margin: -27px 0 20px;
+    filter: drop-shadow(0 0 5px #141414);
+    a {
+      cursor: pointer;
+      color: white;
+      transition: color .3s ease;
+      &:hover {
+        color: #26a1ed;
+      }
+    }
+  }
+
+  .social {
+    margin-bottom: 20px;
+  }
+
+  .copyrigth {
+    color: white;
+    text-align: center;
+    padding: 20px 0 50px;
+    font-size: 16px;
+  }
 }

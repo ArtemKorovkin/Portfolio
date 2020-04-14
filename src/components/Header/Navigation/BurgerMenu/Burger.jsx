@@ -14,11 +14,10 @@ const Burger = (props) => {
       <div>
         <div className={style.menuBurger}
              onClick={activeBurger}
-             ref={burgerMenu}
-        >
+             ref={burgerMenu}>
           <span></span>
         </div>
-        <MenuList/>
+        <MenuList burgerMenu/>
       </div>
   )
 }
