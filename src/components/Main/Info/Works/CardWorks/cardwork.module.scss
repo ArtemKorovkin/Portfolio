@@ -1,9 +1,17 @@
 .workCard {
-  flex: 0 0 33.333%;
-  margin: 0 15px 0 15px;
+  flex: 0 0 33%;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px #000;
+  margin: 0 15px 30px 15px;
+  @media (max-width: 760px) {
+    flex: 0 0 100%;
+  }
   .cardImg {
     position: relative;
     padding: 0 0 60% 0;
+    margin-bottom: 20px;
     img {
       position: absolute;
       top: 0;
@@ -14,7 +22,24 @@
     }
   }
   .cardTitle {
+    height: 50px;
+    margin-bottom: 30px;
   }
   .cardText {
+    margin-bottom: 30px;
+    padding: 0 10px;
+    font-size: 18px;
+    text-align: left;
+  }
+  .cardLink {
+    padding: 10px 30px;
+    color: #000;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-top: 1px #000 dashed;
+    &:hover {
+      color: blue;
+    }
   }
 }

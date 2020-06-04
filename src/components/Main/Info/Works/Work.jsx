@@ -5,7 +5,14 @@ import arrWorks from "../../../StateWorks/StateWork.jsx";
 
 const Works = props => {
   let myWorks = arrWorks.map(works => {
-    return <CardWork img={works.img} title={works.title} text={works.text} />;
+    return (
+      <CardWork
+        img={works.img}
+        title={works.title}
+        text={works.text}
+        link={works.link}
+      />
+    );
   });
 
   return (
