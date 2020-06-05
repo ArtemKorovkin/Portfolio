@@ -1,5 +1,5 @@
-@import '../../../Styles/RFS';
-.body{
+@import "../../../Styles/RFS";
+.body {
   display: flex;
   flex-direction: column;
   height: 500px;
@@ -7,8 +7,8 @@
   @media (max-height: 540px) {
     margin-top: -10%;
   }
-  .title{
-    font-family: 'Russo One', Arial, Helvetica, sans-serif;
+  .title {
+    font-family: "Russo One", Arial, Helvetica, sans-serif;
     color: white;
     @include font-size(70px);
     font-weight: 800;
@@ -16,19 +16,20 @@
     align-self: center;
     margin-bottom: 30px;
   }
-  .text{
+  .text {
     color: white;
-    line-height: 18px;
-    letter-spacing: 1px;
-    max-width: 550px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1.1px;
+    max-width: 750px;
     align-self: center;
     text-align: center;
     margin-bottom: 30px;
-    span{
+    span {
       font-weight: 900;
     }
-    &:after{
-      content: '';
+    &:after {
+      content: "";
       display: block;
       width: 75%;
       height: 1px;
@@ -36,9 +37,8 @@
       margin: 20px auto 0 auto;
     }
     @media (max-width: 675px) {
-      font-size: 12px;
+      font-size: 14px;
       line-height: 15px;
     }
-
   }
 }
