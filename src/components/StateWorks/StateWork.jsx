@@ -32,7 +32,7 @@ let arrWorks = [
   {
     img: imgTodoList,
     title: "Todo List",
-    text: "Практика применения React",
+    text: "Выполнение небольшого проекта на React-е",
     link: "https://todolist-ce670.web.app/"
   }
 ];

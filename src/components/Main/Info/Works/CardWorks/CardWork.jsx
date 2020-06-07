@@ -2,7 +2,6 @@ import React from "react";
 import style from "./cardwork.module.scss";
 
 const CardWork = ({ img, title, text, link }) => {
-  console.log({ img });
   return (
     <div className={style.workCard}>
       <div className={style.cardImg}>
